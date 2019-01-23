@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [myAppSuite]">
+  <test thread-count="5" name="myApplicationTest(failed)">
+    <classes>
+      <class name="com.app.test.DressesTest">
+        <methods>
+          <include name="VerifyProductCount"/>
+          <include name="VerifyProductInAscendingOrder"/>
+          <include name="verifyPriceInAscendingOrder"/>
+          <include name="verifySize"/>
+        </methods>
+      </class> <!-- com.app.test.DressesTest -->
+      <class name="com.app.test.HomePageTest">
+        <methods>
+          <include name="verifyDisplay"/>
+          <include name="VerifyAddToCartButton"/>
+          <include name="verifySubscription"/>
+        </methods>
+      </class> <!-- com.app.test.HomePageTest -->
+      <class name="com.app.test.ProductDetailPageTest">
+        <methods>
+          <include name="validateDescription"/>
+          <include name="verifyTwitterFshareIcons"/>
+        </methods>
+      </class> <!-- com.app.test.ProductDetailPageTest -->
+    </classes>
+  </test> <!-- myApplicationTest(failed) -->
+</suite> <!-- Failed suite [myAppSuite] -->

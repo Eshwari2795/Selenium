@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [myAppication - Automation Practice Suite]">
+  <test thread-count="5" name="myApplicationTest(failed)">
+    <classes>
+      <class name="com.app.test.DressesTest">
+        <methods>
+          <include name="VerifyProductInAscendingOrder"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.app.test.DressesTest -->
+      <class name="com.app.test.HomePageTest">
+        <methods>
+          <include name="verifyTabs"/>
+        </methods>
+      </class> <!-- com.app.test.HomePageTest -->
+    </classes>
+  </test> <!-- myApplicationTest(failed) -->
+</suite> <!-- Failed suite [myAppication - Automation Practice Suite] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="86157" started-at="2019-01-23T04:48:35Z" finished-at="2019-01-23T04:50:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="86157" started-at="2019-01-23T04:48:35Z" finished-at="2019-01-23T04:50:01Z">
+      <class name="com.app.test.DressesTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.app.test.DressesTest@57db2b13]" name="beforeTest" is-config="true" duration-ms="3198" started-at="2019-01-23T04:48:40Z" finished-at="2019-01-23T04:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="VerifyProductInAscendingOrder()[pri:1, instance:com.app.test.DressesTest@57db2b13]" name="VerifyProductInAscendingOrder" duration-ms="77851" started-at="2019-01-23T04:48:43Z" finished-at="2019-01-23T04:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductInAscendingOrder -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.app.test.DressesTest@57db2b13]" name="afterMethod" is-config="true" duration-ms="69" started-at="2019-01-23T04:50:01Z" finished-at="2019-01-23T04:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.app.test.DressesTest -->
+      <class name="com.app.test.ProductDetailPageTest">
+        <test-method status="PASS" signature="BeforeValidation()[pri:0, instance:com.app.test.ProductDetailPageTest@5c86a017]" name="BeforeValidation" is-config="true" duration-ms="3276" started-at="2019-01-23T04:48:35Z" finished-at="2019-01-23T04:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeValidation -->
+        <test-method status="PASS" signature="validateDescription()[pri:0, instance:com.app.test.ProductDetailPageTest@5c86a017]" name="validateDescription" duration-ms="157" started-at="2019-01-23T04:48:38Z" finished-at="2019-01-23T04:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDescription -->
+        <test-method status="PASS" signature="AfterValidation()[pri:0, instance:com.app.test.ProductDetailPageTest@5c86a017]" name="AfterValidation" is-config="true" duration-ms="1470" started-at="2019-01-23T04:48:38Z" finished-at="2019-01-23T04:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterValidation -->
+      </class> <!-- com.app.test.ProductDetailPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
